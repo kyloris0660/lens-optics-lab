@@ -1,0 +1,129 @@
+{
+  "model": "scalar Fraunhofer, incoherent image intensity convolution; uniform circular pupil",
+  "wavelength_nm": 550,
+  "f_number": 4,
+  "image_pixel_um": 0.55,
+  "psf_panel_width_um": 44.55,
+  "target_width_um": 281.6,
+  "FFT_size": 512,
+  "pupil_diameter_pixels": 128,
+  "PSF_display": "shared log10 ideal-peak-relative intensity, -4 to 0 decades",
+  "wave_display": "fixed -1.6 to +1.6 waves",
+  "cases": {
+    "ideal": {
+      "peakRatio": 1.0,
+      "rmsWaves": 0.0,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999609255451255
+    },
+    "defocus-0.08": {
+      "peakRatio": 0.772007364389788,
+      "rmsWaves": 0.07990838769468295,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999609064044076
+    },
+    "defocus-0.2": {
+      "peakRatio": 0.1434762548692721,
+      "rmsWaves": 0.19977096923670737,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999608056675515
+    },
+    "defocus-0.4": {
+      "peakRatio": 0.04616810271935337,
+      "rmsWaves": 0.39954193847341474,
+      "energy": 1.0000000000000002,
+      "kernelRetainedEnergy": 0.9999604424599791
+    },
+    "spherical-0.08": {
+      "peakRatio": 0.7741006313178801,
+      "rmsWaves": 0.07982211999268317,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999606389469075
+    },
+    "spherical-0.2": {
+      "peakRatio": 0.18305929329403836,
+      "rmsWaves": 0.19955529998170793,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999590781289363
+    },
+    "spherical-0.4": {
+      "peakRatio": 0.13136006953718937,
+      "rmsWaves": 0.39911059996341586,
+      "energy": 0.9999999999999999,
+      "kernelRetainedEnergy": 0.9999526235774587
+    },
+    "coma-0.08": {
+      "peakRatio": 0.775292095929996,
+      "rmsWaves": 0.07986426354992375,
+      "energy": 0.9999999999999998,
+      "kernelRetainedEnergy": 0.9999757167816876
+    },
+    "coma-0.2": {
+      "peakRatio": 0.21745770728084343,
+      "rmsWaves": 0.19966065887480935,
+      "energy": 1.0000000000000002,
+      "kernelRetainedEnergy": 0.9999656946524924
+    },
+    "coma-0.4": {
+      "peakRatio": 0.10059448187828043,
+      "rmsWaves": 0.3993213177496187,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.999966774961376
+    },
+    "astigmatism-0.08": {
+      "peakRatio": 0.7765493880120105,
+      "rmsWaves": 0.07978741311128501,
+      "energy": 1.0000000000000002,
+      "kernelRetainedEnergy": 0.9999608575801804
+    },
+    "astigmatism-0.2": {
+      "peakRatio": 0.1983824477095431,
+      "rmsWaves": 0.19946853277821253,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999607369831737
+    },
+    "astigmatism-0.4": {
+      "peakRatio": 0.04202236301066906,
+      "rmsWaves": 0.39893706555642505,
+      "energy": 1.0000000000000002,
+      "kernelRetainedEnergy": 0.9999606223026436
+    },
+    "astig-near-0.08": {
+      "peakRatio": 0.6884679419357496,
+      "rmsWaves": 0.097441536311437,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999608481872462
+    },
+    "astig-near-0.2": {
+      "peakRatio": 0.23285951099790794,
+      "rmsWaves": 0.2436038407785925,
+      "energy": 0.9999999999999998,
+      "kernelRetainedEnergy": 0.9999606777890323
+    },
+    "astig-near-0.4": {
+      "peakRatio": 0.11106191888961797,
+      "rmsWaves": 0.487207681557185,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999603795794019
+    },
+    "astig-far-0.08": {
+      "peakRatio": 0.6884679419357493,
+      "rmsWaves": 0.097441536311437,
+      "energy": 1.0000000000000002,
+      "kernelRetainedEnergy": 0.9999608481872464
+    },
+    "astig-far-0.2": {
+      "peakRatio": 0.23285951099790783,
+      "rmsWaves": 0.2436038407785925,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999606777890326
+    },
+    "astig-far-0.4": {
+      "peakRatio": 0.11106191888961796,
+      "rmsWaves": 0.487207681557185,
+      "energy": 1.0,
+      "kernelRetainedEnergy": 0.9999603795794019
+    }
+  },
+  "airy_profile_max_absolute_error": 0.00037691393978578347
+}
